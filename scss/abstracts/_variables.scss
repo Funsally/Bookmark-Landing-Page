@@ -1,0 +1,20 @@
+:root {
+	--Soft-Blue: hsl(231, 69%, 60%);
+	--Soft-Red: hsl(0, 94%, 66%);
+
+	--Grayish-Blue: hsl(229, 8%, 60%);
+	--Grayish-Blue-light: hsl(228, 10%, 90%);
+	--Very-Dark-Blue: hsl(229, 31%, 21%);
+
+	--shadow-light: 4px 4px 8px 0px rgba(145, 148, 161, 0.37);
+}
+
+$big-desktop: 112.5em; //1800px
+$desktop: 90em; //1440px
+$tab-land: 75em; //1200px
+$laptop: 64em; //1024px
+$tab-port: 56.25em; //900px
+$tablet: 48em; //768px
+$mobile-lg: 27em; //425px
+$mobile-med: 23.4em; //375px
+$mobile: 20em; //320px

@@ -1,0 +1,65 @@
+.footer {
+	background-color: var(--Very-Dark-Blue);
+	padding: 5rem 0;
+	color: var(--Grayish-Blue-light);
+
+	&__logo {
+		filter: brightness(0) saturate(100%) invert(100%) sepia(58%)
+			saturate(345%) hue-rotate(178deg) brightness(93%) contrast(96%);
+		padding-bottom: 5rem;
+
+		@media screen and (min-width: $laptop) {
+			padding-bottom: 0;
+		}
+	}
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		@media screen and (min-width: $laptop) {
+			flex-direction: row;
+			justify-content: space-between;
+			width: 80%;
+		}
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		@media screen and (min-width: $laptop) {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+
+	&__social--list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 3rem;
+	}
+
+	&__list {
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 1.4rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 3rem;
+		margin-bottom: 5rem;
+
+		@media screen and (min-width: $laptop) {
+			flex-direction: row;
+			justify-content: space-between;
+			margin-bottom: 0;
+		}
+	}
+}

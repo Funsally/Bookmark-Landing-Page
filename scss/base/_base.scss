@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+
+	@media screen and (max-width: $tab-port) {
+		font-size: 50%;
+	}
+
+	@media screen and (max-width: $tab-land) {
+		font-size: 56.25%;
+	}
+
+	@media screen and (min-width: $big-desktop) {
+		font-size: 75%;
+	}
+}
+
+body {
+	font-size: 1.8rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--Very-Dark-Blue);
+
+	@media screen and (max-width: $mobile) {
+		font-size: 1.6rem;
+	}
+}

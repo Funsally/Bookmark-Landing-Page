@@ -1,0 +1,52 @@
+.section__FAQ {
+	padding: 5rem 0;
+
+	@media screen and (min-width: 37.5em) {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	@media screen and (min-width: $laptop) {
+		width: 50%;
+	}
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-question-box {
+		border-bottom: 1px solid var(--Grayish-Blue);
+	}
+
+	&-question {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 2rem 0;
+	}
+
+	.answer {
+		padding: 1rem 0 3rem;
+	}
+
+	&--btn {
+		text-transform: capitalize;
+		width: fit-content;
+		margin: 4rem auto 4rem;
+	}
+}
+
+.section__contact {
+	background-color: var(--Soft-Blue);
+	color: white;
+	padding: 8rem 0 4rem;
+
+	p {
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		font-size: 1.4rem;
+		margin-bottom: 2.5rem;
+	}
+}

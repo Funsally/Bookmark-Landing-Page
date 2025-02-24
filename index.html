@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="shortcut icon"
+			href="/images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- FONT -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Frontend Mentor | Bookmark Landing page</title>
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="nav__item container">
+				<img src="images/logo-bookmark.svg" alt="" class="nav__logo" />
+				<img src="images/icon-hamburger.svg" alt="" class="nav__menu" />
+
+				<ul class="nav__list">
+					<li class="nav__item"><a href="" class="nav__link">features</a></li>
+					<li class="nav__item"><a href="" class="nav__link">pricing</a></li>
+					<li class="nav__item"><a href="" class="nav__link">contact</a></li>
+					<li class="nav__item">
+						<button class="btn btn--tertiary">login</button>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<header class="header text-center">
+			<div class="container header__container">
+				<div class="header__right">
+					<div class="header__right--img">
+						<img
+							src="images/illustration-hero.svg"
+							alt=""
+							class="header__img"
+						/>
+					</div>
+				</div>
+				<div class="header__left">
+					<h1 class="heading--primary">a simple bookmark manager</h1>
+					<p class="paragraph u-top-bottom-small">
+						A clean and simple interface to organize your favourite websites.
+						Open a new browser tab and see your sites load instantly. Try it
+						for free.
+					</p>
+
+					<div class="header__btns">
+						<button class="header__btn btn btn--primary">
+							Get it on Chrome
+						</button>
+						<button class="header__btn btn btn--secondary">
+							Get it on Firefox
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="">
+			<div class="container">
+				<section class="section__features text-center">
+					<article class="section-heading">
+						<h2 class="heading--secondary">features</h2>
+						<p class="paragraph u-top-bottom-small">
+							Our aim is to make it quick and easy for you to access your
+							favourite websites. Your bookmarks sync between your devices so
+							you can access them on the go.
+						</p>
+					</article>
+					<ul class="section__features-tabs__list">
+						<li class="section__features-item active">simple bookmarking</li>
+						<li class="section__features-item">speed searching</li>
+						<li class="section__features-item">easy sharing</li>
+					</ul>
+
+					<div class="section__features--tab">
+						<div class="img-box">
+							<img
+								src="images/illustration-features-tab-1.svg"
+								alt=""
+								class="section__features--tab-img"
+							/>
+						</div>
+						<div class="section__features--tab__content">
+							<h2 class="heading--secondary">Bookmark in one click</h2>
+							<p class="paragraph u-top-bottom-small">
+								Organize your bookmarks however you like. Our simple
+								drag-and-drop interface gives you complete control over how
+								you manage your favourite sites.
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="section__download text-center">
+					<article class="section-heading">
+						<h2 class="heading--secondary">Download the extension</h2>
+						<p class="paragraph u-top-bottom-small">
+							We’ve got more browsers in the pipeline. Please do let us know
+							if you’ve got a favourite you’d like us to prioritize.
+						</p>
+					</article>
+					<div class="section__download--cards">
+						<article class="section__download--card">
+							<img src="images/logo-chrome.svg" alt="" />
+							<h3 class="heading--tertiary">Add to Chrome</h3>
+							<p class="paragraph">Minimum version 62</p>
+							<hr />
+							<button class="btn btn--primary">
+								add & install extension
+							</button>
+						</article>
+
+						<article class="section__download--card">
+							<img src="images/logo-firefox.svg" alt="" />
+							<h3 class="heading--tertiary">Add to Firefox</h3>
+							<p class="paragraph">Minimum version 55</p>
+							<hr />
+							<button class="btn btn--primary">
+								add & install extension
+							</button>
+						</article>
+
+						<article class="section__download--card">
+							<img src="images/logo-opera.svg" alt="" />
+							<h3 class="heading--tertiary">Add to Opera</h3>
+							<p class="paragraph">Minimum version 46</p>
+							<hr />
+							<button class="btn btn--primary">
+								add & install extension
+							</button>
+						</article>
+					</div>
+				</section>
+
+				<section class="section__FAQ">
+					<div class="sction__FAQ--heading text-center">
+						<h2 class="heading--secondary">frequently asked questions</h2>
+						<p class="paragraph u-top-bottom-small">
+							Here are some of our FAQs. If you have any other questions you’d
+							like answered please feel free to email us.
+						</p>
+					</div>
+
+					<div class="section__FAQ-content">
+						<article class="section__FAQ-question-box">
+							<div class="section__FAQ-question">
+								<p class="paragraph bold">What is Bookmark?</p>
+								<img
+									src="images/icon-arrow.svg"
+									alt=""
+									class="section__FAQ-question-icon"
+								/>
+							</div>
+						</article>
+
+						<div class="section__FAQ-question-box">
+							<div class="section__FAQ-question">
+								<p class="paragraph bold">How can i request a new browser?</p>
+
+								<img
+									src="images/icon-close.svg"
+									alt=""
+									class="section__FAQ-question-icon"
+								/>
+							</div>
+							<p class="paragraph answer">
+								Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+								massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
+								luctus eros aliquet convallis ultricies. Mauris augue massa,
+								ultricies non ligula. Suspendisse imperdie tVivamus luctus
+								eros aliquet convallis ultricies. Mauris augue massa,
+								ultricies non ligula. Suspendisse imperdiet.
+							</p>
+						</div>
+
+						<div class="section__FAQ-question-box">
+							<div class="section__FAQ-question">
+								<p class="paragraph bold">Is there a mobile app?</p>
+								<img
+									src="images/icon-arrow.svg"
+									alt=""
+									class="section__FAQ-question-icon"
+								/>
+							</div>
+						</div>
+
+						<div class="section__FAQ-question-box">
+							<div class="section__FAQ-question">
+								<p class="paragraph bold">
+									What about other Chromium browsers
+								</p>
+								<img
+									src="images/icon-arrow.svg"
+									alt=""
+									class="section__FAQ-question-icon"
+								/>
+							</div>
+						</div>
+						<button class="section__FAQ--btn btn btn--primary">
+							more info
+						</button>
+					</div>
+				</section>
+			</div>
+
+			<section class="section__contact text-center">
+				<div class="container section__contact--container">
+					<article class="section-heading">
+						<p class="paragraph">35 <span>000+</span> already joined</p>
+						<h2 class="heading--secondary">
+							Stay up-to-date with what we're doing
+						</h2>
+					</article>
+
+					<form action="" class="contact__form">
+						<div class="contact__form--input">
+							<input
+								type="text"
+								class="email__input"
+								placeholder="Enter your email address"
+							/>
+						</div>
+
+						<button class="contact__form--btn btn btn--tertiary">
+							contact us
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer__container">
+				<img src="images/logo-bookmark.svg" alt="" class="footer__logo" />
+
+				<div class="footer__right">
+					<ul class="footer__list">
+						<li class="footer__item">features</li>
+						<li class="footer__item">pricing</li>
+						<li class="footer__item">content</li>
+					</ul>
+				</div>
+
+				<div class="footer__left">
+					<ul class="footer__social--list">
+						<li class="footer__social--item">
+							<a href="" class="footer__social--link">
+								<img
+									src="images/icon-facebook.svg"
+									alt=""
+									class="footer__social--img"
+								/>
+							</a>
+						</li>
+
+						<li class="footer__social--item">
+							<a href="" class="footer__social--link">
+								<img
+									src="images/icon-twitter.svg"
+									alt=""
+									class="footer__social--img"
+								/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

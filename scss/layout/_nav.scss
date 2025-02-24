@@ -1,0 +1,60 @@
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	height: 10rem;
+	background-color: white;
+	z-index: 100000;
+
+	&__item {
+		width: 90%;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		@media screen and (min-width: $laptop) {
+			width: 80%;
+		}
+	}
+
+	&__menu {
+		@media screen and (min-width: $tablet) {
+			display: none;
+		}
+	}
+
+	&__list {
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		gap: 4rem;
+		font-size: 1.6rem;
+		letter-spacing: 2px;
+		font-weight: 500;
+		cursor: pointer;
+		transition: color 0.2s;
+
+		button {
+			text-transform: uppercase;
+			font-size: inherit;
+			font-weight: inherit;
+			padding-left: 3rem;
+			padding-right: 3rem;
+		}
+
+		@media screen and (min-width: 0em) and (max-width: $tablet) {
+			display: none;
+		}
+	}
+
+	&__link {
+		&:hover {
+			color: var(--Soft-Red);
+		}
+	}
+}

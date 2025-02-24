@@ -1,0 +1,43 @@
+.btn {
+	border: none;
+	background-color: transparent;
+	padding: 1.5rem 3rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	font-weight: 500;
+	box-shadow: var(--shadow-light);
+	transition: all 0.2s;
+
+	&:hover {
+		border: 2px solid currentColor;
+		background-color: white;
+	}
+
+	&--primary {
+		background-color: var(--Soft-Blue);
+		color: white;
+
+		&:hover {
+			color: var(--Soft-Blue);
+		}
+	}
+
+	&--secondary {
+		color: var(--Very-Dark-Blue);
+		background-color: var(--Grayish-Blue-light);
+
+		&:hover {
+			color: var(--Very-Dark-Blue);
+		}
+	}
+
+	&--tertiary {
+		background-color: var(--Soft-Red);
+		color: white;
+		text-transform: capitalize;
+
+		&:hover {
+			color: var(--Soft-Red);
+		}
+	}
+}

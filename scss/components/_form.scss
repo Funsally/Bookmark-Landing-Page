@@ -1,0 +1,46 @@
+.contact__form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 2.5rem;
+
+	@media screen and (min-width: $laptop) {
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 2rem;
+	}
+
+	@media screen and (min-width: 37.5em) {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	&--input {
+		display: flex;
+
+		@media screen and (min-width: $laptop) {
+			width: 80%;
+		}
+	}
+
+	.email__input {
+		padding: 1.5rem;
+		margin-bottom: 2rem;
+		background-color: white;
+		border: none;
+		width: 100%;
+		border-radius: 5px;
+
+		@media screen and (min-width: $laptop) {
+			margin-bottom: 0;
+			width: 100%;
+		}
+	}
+
+	&--btn {
+		width: 100%;
+
+		@media screen and (min-width: $laptop) {
+			width: fit-content;
+		}
+	}
+}

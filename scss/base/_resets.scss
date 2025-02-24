@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+
+	&:link,
+	&:visited {
+		color: inherit;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+button {
+	font-family: inherit;
+	display: inline-block;
+	font-size: inherit;
+	text-wrap: nowrap;
+}
